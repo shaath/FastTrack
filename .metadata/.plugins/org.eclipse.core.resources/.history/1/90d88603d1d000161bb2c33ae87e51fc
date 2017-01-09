@@ -1,0 +1,27 @@
+package day4;
+
+import java.util.Set;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class MultipleWindowHandling {
+
+	public static void main(String[] args)
+	{
+		WebDriver driver=new FirefoxDriver();
+		driver.get("http://gmail.com");
+		driver.manage().window().maximize();
+		
+		String gmail=driver.getWindowHandle();
+		System.out.println(gmail);
+		driver.findElement(By.linkText("Privacy")).click();
+		
+		Set<String> s=driver.getWindowHandles();
+		
+//		driver.findElement(By.linkText("Terms of Service")).click();
+
+	}
+
+}

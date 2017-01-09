@@ -1,0 +1,21 @@
+package methods;
+
+public class Examples 
+{
+	public static void main(String[] args) 
+	{
+		Examples e=new Examples();
+		int res=e.sum();
+		System.out.println(res);
+		
+	}
+	
+
+	public int sum()
+	{
+		int a=40;
+		int b=50;
+		int c=a+b;
+		return c;
+	}
+}

@@ -1,0 +1,28 @@
+package day4;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class CalanderOps
+{
+
+	public static void main(String[] args)
+	{
+		String date="18/February/2018";
+		String[] split=date.split("/");
+		String day=split[0];
+		String month=split[1];
+		String year=splitp[2];
+		
+		WebDriver driver=new FirefoxDriver();
+		driver.get("https://www.cleartrip.com/");
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.id("DepartDate")).click();
+		
+		
+
+	}
+
+}

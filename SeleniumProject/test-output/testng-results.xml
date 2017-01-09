@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid Test" duration-ms="34543" started-at="2017-01-09T09:21:04Z" finished-at="2017-01-09T09:21:39Z">
+    <groups>
+    </groups>
+    <test name="On Chrome" duration-ms="19450" started-at="2017-01-09T09:21:04Z" finished-at="2017-01-09T09:21:24Z">
+      <class name="grid.GridEg2">
+        <test-method status="PASS" signature="t(java.lang.String)[pri:0, instance:grid.GridEg2@35ee1bee]" name="t" duration-ms="19411" started-at="2017-01-09T14:51:04Z" finished-at="2017-01-09T14:51:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t -->
+      </class> <!-- grid.GridEg2 -->
+    </test> <!-- On Chrome -->
+    <test name="On Firefox" duration-ms="34543" started-at="2017-01-09T09:21:04Z" finished-at="2017-01-09T09:21:39Z">
+      <class name="grid.GridEg2">
+        <test-method status="PASS" signature="t(java.lang.String)[pri:0, instance:grid.GridEg2@449b9ad]" name="t" duration-ms="34510" started-at="2017-01-09T14:51:04Z" finished-at="2017-01-09T14:51:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- t -->
+      </class> <!-- grid.GridEg2 -->
+    </test> <!-- On Firefox -->
+  </suite> <!-- Grid Test -->
+</testng-results>

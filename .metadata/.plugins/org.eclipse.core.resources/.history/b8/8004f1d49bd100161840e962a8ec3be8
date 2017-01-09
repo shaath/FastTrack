@@ -1,0 +1,18 @@
+package methods;
+
+public class BasicMethodsEg {
+
+	public static void main(String[] args)
+	{
+		function1();
+
+	}
+	
+	//static method without returning anyvalue
+	
+	public static void function1()
+	{
+		System.out.println("This is Function1 code");
+	}
+
+}
